@@ -6,10 +6,10 @@ A full stack accident replacement vehicle management system built with PHP, MySQ
 
 ## 🌐 Live Demo
 
-### Test the application, as a staff member, Register, Login, review the dashboard, CRUD claims, CRUD Vehicles.
+Test the application, as a staff member, Register, Login, review the dashboard, CRUD claims, CRUD Vehicles.
 🔗 **[https://gus-costa-dev.42web.io/pages/auth/login.php](https://gus-costa-dev.42web.io/pages/auth/login.php)**
 
-### Test the API Integration, as a customer, add a claim to be approved by the staff, go back to the link above to review it.
+Test the API Integration, as a customer, add a claim to be approved by the staff, go back to the link above to review it.
 🔗 **[https://gus-costa-dev.42web.io/api/index.php](https://gus-costa-dev.42web.io/api/index.php)**
 
 
