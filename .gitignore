@@ -1,0 +1,9 @@
+# Hide sensitive config (we'll use environment variables on Railway)
+config/database.php
+
+# Hide system files
+.DS_Store
+Thumbs.db
+
+# Hide PHP error logs
+*.log
