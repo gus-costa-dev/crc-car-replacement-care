@@ -1,0 +1,11 @@
+# Custom 404 page
+ErrorDocument 404 /404.php
+
+# Security - hide sensitive files
+<Files "*.php">
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+# Prevent directory browsing
+Options -Indexes
