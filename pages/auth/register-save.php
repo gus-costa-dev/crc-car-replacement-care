@@ -78,7 +78,7 @@ try {
     echo json_encode([
         'success'  => true,
         'message'  => 'Account created! Redirecting to login...',
-        'redirect' => '<?php echo BASE_URL; ?>/pages/auth/login.php'
+        'redirect' => BASE_URL . '/pages/auth/login.php'
     ]);
 
 } catch (PDOException $e) {

@@ -98,7 +98,7 @@ try {
     echo json_encode([
         'success'  => true,
         'message'  => 'Claim created successfully!',
-        'redirect' => '<?php echo BASE_URL; ?>/pages/claims/index.php'
+        'redirect' => BASE_URL . '/pages/claims/index.php'
     ]);
 
 } catch (PDOException $e) {

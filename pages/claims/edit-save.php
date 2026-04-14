@@ -97,7 +97,7 @@ try {
     echo json_encode([
         'success'  => true,
         'message'  => 'Claim updated successfully!',
-        'redirect' => '<?php echo BASE_URL; ?>/pages/claims/view.php?id=' . $id
+        'redirect' => BASE_URL . '/pages/claims/view.php?id=' . $id
     ]);
 
 } catch (PDOException $e) {

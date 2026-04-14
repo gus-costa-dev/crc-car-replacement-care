@@ -57,7 +57,7 @@ try {
     echo json_encode([
         'success'  => true,
         'message'  => 'Login successful! Redirecting...',
-        'redirect' => '<?php echo BASE_URL; ?>/pages/dashboard.php'
+        'redirect' => BASE_URL . '/pages/dashboard.php'
     ]);
 
 } catch (PDOException $e) {

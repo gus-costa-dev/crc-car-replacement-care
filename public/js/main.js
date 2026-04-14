@@ -17,7 +17,7 @@ $(document).ready(function () {
         }
 
         $.ajax({
-            url: '<?php echo BASE_URL; ?>/pages/auth/login-save.php',
+            url: BASE_URL + '/pages/auth/login-save.php',
             method: 'POST',
             data: {
                 email:    email,
@@ -72,7 +72,7 @@ $(document).ready(function () {
 
         // --- SEND TO SERVER VIA AJAX ---
         $.ajax({
-            url: '<?php echo BASE_URL; ?>/pages/auth/register-save.php',
+            url: BASE_URL + '/pages/auth/register-save.php',
             method: 'POST',
             data: {
                 name:             name,
@@ -132,7 +132,7 @@ $(document).ready(function () {
 
         // --- SEND TO SERVER VIA AJAX ---
         $.ajax({
-            url: '<?php echo BASE_URL; ?>/pages/claims/create-save.php',
+            url: BASE_URL + '/pages/claims/create-save.php',
             method: 'POST',
             data: {
                 claimant_name:     claimantName,
@@ -198,7 +198,7 @@ $(document).ready(function () {
 
         // --- SEND TO SERVER VIA AJAX ---
         $.ajax({
-            url: '<?php echo BASE_URL; ?>/pages/claims/edit-save.php',
+            url: BASE_URL + '/pages/claims/edit-save.php',
             method: 'POST',
             data: {
                 claim_id:          claimId,
@@ -237,7 +237,7 @@ $(document).ready(function () {
         var confirmDelete = confirm('Are you sure you want to delete claim #' + claimId + '? This cannot be undone.');
 
         if (confirmDelete) {
-            window.location.href = '<?php echo BASE_URL; ?>/pages/claims/delete.php?id=' + claimId;
+            window.location.href = BASE_URL + '/pages/claims/delete.php?id=' + claimId;
         }
     });
 
@@ -262,7 +262,7 @@ $(document).ready(function () {
         }
 
         $.ajax({
-            url: '<?php echo BASE_URL; ?>/pages/vehicles/create-save.php',
+            url: BASE_URL + '/pages/vehicles/create-save.php',
             method: 'POST',
             data: {
                 make:         make,
@@ -311,7 +311,7 @@ $(document).ready(function () {
         }
 
         $.ajax({
-            url: '<?php echo BASE_URL; ?>/pages/vehicles/edit-save.php',
+            url: BASE_URL + '/pages/vehicles/edit-save.php',
             method: 'POST',
             data: {
                 vehicle_id:   vehicleId,
@@ -347,7 +347,7 @@ $(document).ready(function () {
         var confirmDelete = confirm('Are you sure you want to delete vehicle #' + vehicleId + '? This cannot be undone.');
 
         if (confirmDelete) {
-            window.location.href = '<?php echo BASE_URL; ?>/pages/vehicles/delete.php?id=' + vehicleId;
+            window.location.href = BASE_URL + '/pages/vehicles/delete.php?id=' + vehicleId;
         }
     });
 

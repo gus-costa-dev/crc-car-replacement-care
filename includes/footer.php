@@ -1,4 +1,7 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+    var BASE_URL = '<?php echo BASE_URL; ?>';
+</script>
 <script src="<?php echo BASE_URL; ?>/public/js/main.js"></script>
 </body>
 </html>

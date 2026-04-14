@@ -81,7 +81,7 @@ try {
     echo json_encode([
         'success'  => true,
         'message'  => 'Vehicle updated successfully!',
-        'redirect' => '<?php echo BASE_URL; ?>/pages/vehicles/index.php'
+        'redirect' => BASE_URL . '/pages/vehicles/index.php'
     ]);
 
 } catch (PDOException $e) {
